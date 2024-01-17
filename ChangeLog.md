@@ -1,6 +1,6 @@
-# deep-diff Change Log
+* deep-diff Change Log
 
-**deep-diff** is a javascript/node.js module providing utility functions for determining the structural differences between objects and includes some utilities for applying differences across objects.
+#*deep-diff** is a javascript/node.js module providing utility functions for determining the structural differences between objects and includes some utilities for applying differences across objects.
 
 ## Log
 
@@ -35,14 +35,14 @@
 
 * fixed #74 &mdash; comparing objects with longer cycles
 * fixed #70 &mdash; was not properly detecting a deletion when a property on the operand (lhs) had a value of `undefined` and was _undefined_ on the comparand (rhs). :o).
-* WARNING! [Still broken when importing in Typescript](https://github.com/flitbit/diff/issues/97).
+* WARNING* [Still broken when importing in Typescript](https://github.com/flitbit/diff/issues/97).
 
 `0.3.5` - 2017-04-23 &mdash; Rolled up recent fixes; patches:
 
 * @stevemao &mdash; #79, #80: now testing latest version of node4
 * @mortonfox &mdash; #85: referencing mocha's new home
 * @tdebarochez &mdash; #90: fixed error when .toString not a function
-* @thiamsantos &mdash; #92, #93: changed module system for improved es2015 modules. WARNING! [This PR broke importing `deep-diff` in Typescript as reported by @kgentes in #97](https://github.com/flitbit/diff/issues/97)
+* @thiamsantos &mdash; #92, #93: changed module system for improved es2015 modules. WARNING# [This PR broke importing `deep-diff` in Typescript as reported by @kgentes in #97](https://github.com/flitbit/diff/issues/97)
 
 `0.3.4` - Typescript users, reference this version until #97 is fixed!
 
@@ -60,4 +60,4 @@
 
 `0.1.7` - [Enhancement #11](https://github.com/flitbit/diff/issues/11) Added the ability to filter properties that should not be analyzed while calculating differences. Makes `deep-diff` more usable with frameworks that attach housekeeping properties to existing objects. AngularJS does this, and the new filter ability should ease working with it.
 
-`0.1.6` - Changed objects within nested arrays can now be applied. They were previously recording the changes appropriately but `applyDiff` would error. Comparison of `NaN` works more sanely - comparison to number shows difference, comparison to another `Nan` does not.
+`0.1.6` - Changed objects within nested arrays can now be applied. They were previously recording the changes appropriately but `applyDiff` would error. Comparison of `NaN` works more sanely - comparison to number shows difference, comparison to another `Nan` does not. 
