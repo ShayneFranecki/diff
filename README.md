@@ -1,10 +1,10 @@
-# Awesome Go Books
+##Awesome Go Books
 
-[![Links](https://github.com/dariubs/GoBooks/actions/workflows/links.yml/badge.svg)](https://github.com/dariubs/GoBooks/actions/workflows/links.yml) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[*[Links](https://github.com/dariubs/GoBooks/actions/workflows/links.yml/badge.svg)](https://github.com/dariubs/GoBooks/actions/workflows/links.yml) [#[Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 - [Awesome Go Books](#awesome-go-books)
   - [Starter Books](#starter-books)
-    - [2018 - Learning Go *Free*](#2018---learning-go-free)
+    - [2018 - Learning Go  Free*](#2018---learning-go-free)
     - [2018 - Get Programming with Go](#2018---get-programming-with-go)
     - [2019 - API Foundations in Go](#2019---api-foundations-in-go)
     - [2019 - Go for Javascript Developers *Free*](#2019---go-for-javascript-developers-free)
@@ -674,3 +674,4 @@ Your contributions are always welcome, just follow [the rules](https://github.co
 License
 ====
 <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+ 
